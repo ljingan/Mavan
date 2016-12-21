@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_33" class="java.beans.XMLDecoder"> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[1,8]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20000</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000401</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>妖蝶</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m023</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m023_stand_0005.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10101,1}&quot;,&quot;{10102,2}&quot;,&quot;{10103,3}&quot;,&quot;{10104,4}&quot;,&quot;{10105,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[2,11]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20001</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000402</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>眼镜蛇</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m063</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m063_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10201,1}&quot;,&quot;{10202,2}&quot;,&quot;{10203,3}&quot;,&quot;{10204,4}&quot;,&quot;{10205,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[2,12]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20002</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000403</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>白星虎</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m006</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m006_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10301,1}&quot;,&quot;{10302,2}&quot;,&quot;{10303,3}&quot;,&quot;{10304,4}&quot;,&quot;{10305,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[1,10]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20003</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000404</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>雷鹰</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m022</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m022_stand_0005.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10401,1}&quot;,&quot;{10402,2}&quot;,&quot;{10403,3}&quot;,&quot;{10404,4}&quot;,&quot;{10405,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[3,7,15]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20004</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000405</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>刀客</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m008</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m008_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10501,1}&quot;,&quot;{10502,2}&quot;,&quot;{10503,3}&quot;,&quot;{10504,4}&quot;,&quot;{10505,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[2,9,14]</string> 
+  </void> 
+  <void property="id"> 
+   <int>20005</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000406</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>15</int> 
+  </void> 
+  <void property="name"> 
+   <string>大黑</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m033</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m033_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10601,1}&quot;,&quot;{10602,2}&quot;,&quot;{10603,3}&quot;,&quot;{10604,4}&quot;,&quot;{10605,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>2</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[10,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[20000,50000,80000,100000,200000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[4,10,13]</string> 
+  </void> 
+  <void property="id"> 
+   <int>21006</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000407</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>20</int> 
+  </void> 
+  <void property="name"> 
+   <string>阿骨打</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m027</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m027_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10701,1}&quot;,&quot;{10702,2}&quot;,&quot;{10703,3}&quot;,&quot;{10704,4}&quot;,&quot;{10705,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>3</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[15,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[30000,60000,100000,200000,300000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[6,7,8]</string> 
+  </void> 
+  <void property="id"> 
+   <int>21007</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000408</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>20</int> 
+  </void> 
+  <void property="name"> 
+   <string>幽灵</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m032</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m032_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10801,1}&quot;,&quot;{10802,2}&quot;,&quot;{10803,3}&quot;,&quot;{10804,4}&quot;,&quot;{10805,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>3</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[15,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[30000,60000,100000,200000,300000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[4,9,12]</string> 
+  </void> 
+  <void property="id"> 
+   <int>21008</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000409</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>20</int> 
+  </void> 
+  <void property="name"> 
+   <string>黄金力士</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m016</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m016_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{10901,1}&quot;,&quot;{10902,2}&quot;,&quot;{10903,3}&quot;,&quot;{10904,4}&quot;,&quot;{10905,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>3</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[15,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[30000,60000,100000,200000,300000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[3,6,13]</string> 
+  </void> 
+  <void property="id"> 
+   <int>21009</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000410</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>20</int> 
+  </void> 
+  <void property="name"> 
+   <string>侍卫</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m013</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m013_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11001,1}&quot;,&quot;{11002,2}&quot;,&quot;{11003,3}&quot;,&quot;{11004,4}&quot;,&quot;{11005,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>3</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[15,20,30,50,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[30000,60000,100000,200000,300000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[5,7,10]</string> 
+  </void> 
+  <void property="id"> 
+   <int>22010</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000411</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>30</int> 
+  </void> 
+  <void property="name"> 
+   <string>刺影</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m056</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m056_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11101,1}&quot;,&quot;{11102,2}&quot;,&quot;{11103,3}&quot;,&quot;{11104,4}&quot;,&quot;{11105,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>4</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[20,30,50,80,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[50000,100000,200000,300000,500000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[3,6,8]</string> 
+  </void> 
+  <void property="id"> 
+   <int>22011</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000412</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>30</int> 
+  </void> 
+  <void property="name"> 
+   <string>魔徒</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m011</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m011_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11201,1}&quot;,&quot;{11202,2}&quot;,&quot;{11203,3}&quot;,&quot;{11204,4}&quot;,&quot;{11205,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>4</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[20,30,50,80,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[50000,100000,200000,300000,500000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[1,5,11]</string> 
+  </void> 
+  <void property="id"> 
+   <int>22012</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000413</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>30</int> 
+  </void> 
+  <void property="name"> 
+   <string>喋血女妖</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m039</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m039_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11301,1}&quot;,&quot;{11302,2}&quot;,&quot;{11303,3}&quot;,&quot;{11304,4}&quot;,&quot;{11305,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>4</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[20,30,50,80,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[50000,100000,200000,300000,500000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[4,9,14]</string> 
+  </void> 
+  <void property="id"> 
+   <int>22013</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000414</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>30</int> 
+  </void> 
+  <void property="name"> 
+   <string>九黎重</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>m043</string> 
+  </void> 
+  <void property="simger"> 
+   <string>m043_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11401,1}&quot;,&quot;{11402,2}&quot;,&quot;{11403,3}&quot;,&quot;{11404,4}&quot;,&quot;{11405,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>4</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[20,30,50,80,100]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[50000,100000,200000,300000,500000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[9,12,15]</string> 
+  </void> 
+  <void property="id"> 
+   <int>23014</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000415</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>40</int> 
+  </void> 
+  <void property="name"> 
+   <string>慕云雪</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss001</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss001_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11501,1}&quot;,&quot;{11502,2}&quot;,&quot;{11503,3}&quot;,&quot;{11504,4}&quot;,&quot;{11505,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>5</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[30,50,80,100,150]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[100000,200000,300000,500000,1000000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[7,11,14]</string> 
+  </void> 
+  <void property="id"> 
+   <int>23015</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000416</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>40</int> 
+  </void> 
+  <void property="name"> 
+   <string>血影</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss003</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss003_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11601,1}&quot;,&quot;{11602,2}&quot;,&quot;{11603,3}&quot;,&quot;{11604,4}&quot;,&quot;{11605,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>5</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[30,50,80,100,150]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[100000,200000,300000,500000,1000000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[5,6,12]</string> 
+  </void> 
+  <void property="id"> 
+   <int>23016</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000417</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>40</int> 
+  </void> 
+  <void property="name"> 
+   <string>叶知寒</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss006</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss006_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11701,1}&quot;,&quot;{11702,2}&quot;,&quot;{11703,3}&quot;,&quot;{11704,4}&quot;,&quot;{11705,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>5</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[30,50,80,100,150]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[100000,200000,300000,500000,1000000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[8,11,13]</string> 
+  </void> 
+  <void property="id"> 
+   <int>23017</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000418</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>40</int> 
+  </void> 
+  <void property="name"> 
+   <string>阴蛇老人</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss014</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss014_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11801,1}&quot;,&quot;{11802,2}&quot;,&quot;{11803,3}&quot;,&quot;{11804,4}&quot;,&quot;{11805,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>5</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[30,50,80,100,150]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[100000,200000,300000,500000,1000000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[10,14]</string> 
+  </void> 
+  <void property="id"> 
+   <int>24018</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000419</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>50</int> 
+  </void> 
+  <void property="name"> 
+   <string>苏毅</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss005</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss005_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{11901,1}&quot;,&quot;{11902,2}&quot;,&quot;{11903,3}&quot;,&quot;{11904,4}&quot;,&quot;{11905,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>6</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[50,100,150,200,250]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[150000,300000,500000,800000,1500000]</string> 
+  </void> 
+ </object> 
+ <object class="com.game.xml.Pet"> 
+  <void property="desc"> 
+   <string>可通过搜魂、活跃度宝箱以及游历事件获得足够的精魂</string> 
+  </void> 
+  <void property="groups"> 
+   <string>[13,15]</string> 
+  </void> 
+  <void property="id"> 
+   <int>24019</int> 
+  </void> 
+  <void property="itemId"> 
+   <int>90000420</int> 
+  </void> 
+  <void property="maxlv"> 
+   <int>50</int> 
+  </void> 
+  <void property="name"> 
+   <string>紫烈</string> 
+  </void> 
+  <void property="petRse"> 
+   <string>boss008</string> 
+  </void> 
+  <void property="simger"> 
+   <string>boss008_stand_0000.png</string> 
+  </void> 
+  <void property="skill"> 
+   <int>0</int> 
+  </void> 
+  <void property="starKey"> 
+   <string>[&quot;{12001,1}&quot;,&quot;{12002,2}&quot;,&quot;{12003,3}&quot;,&quot;{12004,4}&quot;,&quot;{12005,5}&quot;]</string> 
+  </void> 
+  <void property="style"> 
+   <int>6</int> 
+  </void> 
+  <void property="upStar"> 
+   <string>[50,100,150,200,250]</string> 
+  </void> 
+  <void property="upStarGold"> 
+   <string>[150000,300000,500000,800000,1500000]</string> 
+  </void> 
+ </object> 
+</java> 

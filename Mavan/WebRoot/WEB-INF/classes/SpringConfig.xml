@@ -1,0 +1,74 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+			"
+	default-autowire="byName" default-autowire-candidates="">
+	<bean
+		class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+
+	<context:component-scan base-package="com.*" />
+	<context:component-scan base-package="com.bean.*" />
+	<bean id="playerDao" name="playerDao" class="com.ar.PlayerDaoBean">
+	</bean>
+	<bean id="playerService" name="playerService" class="com.ar.PlayerServiceBean"></bean>
+	<bean id="loginDao" name="loginDao" class="com.module.LoginDao"></bean>
+	<bean id="loginBean" name="loginBean" class="com.bean.LoginBean">
+		<property name="loginDao">
+			<ref bean="loginDao" />
+		</property>
+	</bean>
+	<context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+	<aop:aspectj-autoproxy proxy-target-class="false" />
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="configLocation" value="classpath:hibernate.cfg.xml" />
+		<property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.module.user.entity.User</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="hibernateDaoSupport"
+		class="org.springframework.orm.hibernate3.support.HibernateDaoSupport"
+		abstract="true">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<context:annotation-config />
+	<aop:aspectj-autoproxy proxy-target-class="false" />
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+		<property name="sessionFactory">
+			<ref local="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="backupDataSource" />
+	</bean>
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close" p:driverClassName="${jdbc.driverClassName}"
+		p:url="${jdbc.url}" p:username="${jdbc.username}" p:password="${jdbc.password}"
+		p:validationQuery="select ''" p:timeBetweenEvictionRunsMillis="5000"
+		p:numTestsPerEvictionRun="10" p:testOnBorrow="true" p:testWhileIdle="true" />
+
+	<bean id="backupDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close" p:driverClassName="${jdbc.driverClassName}"
+		p:url="${jdbc.backup.url}" p:username="${jdbc.backup.username}"
+		p:password="${jdbc.backup.password}" p:validationQuery="select ''"
+		p:timeBetweenEvictionRunsMillis="5000" p:numTestsPerEvictionRun="10"
+		p:testOnBorrow="true" p:testWhileIdle="true" />
+
+
+
+</beans>
